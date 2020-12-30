@@ -1,0 +1,235 @@
+:root {
+  --color-light-pink: #efd9d5;
+  --color-light-brown: #dabfb7;
+  --color-dark-brown: #9f7866;
+  --color-white: #ffffff;
+
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  --weight-bold: 800;
+  --weight-semi-bold: 700;
+  --weight-regular: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  background-color: #dabfb7;
+  font-weight: var(--weight-semi-bold);
+  width: 450px;
+  height: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid var(--color-light-brown);
+  float: right;
+  position: relative;
+  right: 0px;
+  top: 150px;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Nanum Myeongjo", serif;
+  margin: 0px;
+}
+
+h5 {
+  text-align: center;
+  padding: 3px 2px 0 30px;
+}
+
+p {
+  color: var(--color-white);
+  font-size: 50px;
+}
+
+div {
+  color: var(--color-dark-brown);
+  font-size: var(--font-large);
+}
+
+#home {
+  background-color: var(--color-light-pink);
+  padding: 0px;
+  margin: 0px;
+  border-top: 0px;
+  border-bottom: 200px solid var(--color-light-pink);
+}
+
+.home__avatar {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  left: 240px;
+  top: 100px;
+  border-radius: 50%;
+}
+
+.home__title {
+  color: var(--color-dark-brown);
+  position: relative;
+  top: 60px;
+  left: 440px;
+  font-weight: var(--weight-bold);
+  font-size: 
+  margin: 0px;
+}
+
+.home__description {
+  color: var(--color-dark-brown);
+  position: relative;
+  left: 420px;
+  top: 170px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+}
+
+#about {
+  height: 950px;
+}
+
+.about__title {
+  border: 5px solid var(--color-light-pink);
+  margin: 0px;
+  padding: 20px;
+  background-color: var(--color-light-pink);
+  color: var(--color-dark-brown);
+  font-size: 80px;
+  font-weight: var(--weight-bold);
+}
+
+.about__jun {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+  top: 80px;
+  float: left;
+}
+
+.about__gyul {
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  right: 100px;
+  bottom: 430px;
+}
+
+.about__description {
+  color: var(--color-dark-brown);
+  font-size: var(--font-regular);
+  position: relative;
+  left: 180px;
+  bottom: 400px;
+  font-weight: var(--weight-bold);
+  float: bottom;
+}
+
+.about__1 {
+  opacity: 0.5;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+}
+
+.about__text1 {
+  color: var(--color-dark-brown);
+  font-weight: var(--weight-bold);
+  font-size: 35px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  right: 230px;
+  bottom: 420px;
+}
+
+.about__description2 {
+  color: var(--color-dark-brown);
+  font-size: var(--font-regular);
+  position: relative;
+  left: 60px;
+  bottom: 550px;
+  font-weight: var(--weight-bold);
+  float: right;
+}
+
+.about__2 {
+  opacity: 0.5;
+  position: relative;
+  right: 10px;
+  bottom: 550px;
+  float: right;
+}
+
+.about__text2 {
+  color: var(--color-dark-brown);
+  font-weight: var(--weight-bold);
+  font-size: 35px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  left: 680px;
+  bottom: 400px;
+}
+
+#memories {
+  background-color: var(--color-light-pink);
+  padding: 50px;
+  margin: 0px;
+  height: 1000px;
+}
+
+.memories__title {
+  color: var(--color-dark-brown);
+  font-weight: var(--weight-bold);
+  font-size: 80px;
+  margin: 0px;
+}
+
+/* scroll */
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 50px;
+  background-color: var(--color-light-brown);
+  border-color: var(--color-light-brown);
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms ease-in;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+}
+
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide1 {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  top: 100px;
+  left: 500px;
+}
